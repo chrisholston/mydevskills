@@ -1,0 +1,47 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    margin: 150px auto;
+   
+}
+.title {
+    background-color: rgb(157,193,	132);
+    color: white;
+}
+h1 {
+    text-align: center;
+}
+
+#remove {
+    color: white;
+    background-color: indianred;
+    margin-right: 15px;
+    margin-left: 0px;
+}
+li {
+    list-style-type: none;
+    font-size: 20px;
+    margin-left: -40px;  
+    color: goldenrod; 
+    padding: 5px;
+
+}
+.textBox, .addSkill {
+    padding: 5px;
+    font-size: 20px;
+    margin-top: 10px;
+    border: 2px solid rgb(157,193,	132);
+    color: rgb(157,193,	132)
+}
+.textBox {
+    
+    width: 365px;
+    
+}
+.addSkill {
+    margin-left: 5px;
+}
+.listParent {
+    margin: 0px;
+}
